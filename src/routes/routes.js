@@ -6,7 +6,7 @@ const MateriaPrimaController = require('../controllers/MateriaPrimaController')
 
 // Rotas para requisições de matéria prima.
 router.post('/rawMaterials', MateriaPrimaController.novaMateriaPrima)
-// router.get('/materiasPrimas', MateriaPrimaController.listarMateriasPrimas)
+router.get('/rawMaterials', MateriaPrimaController.listarMateriasPrimas)
 router.get('/rawMaterials/:nome', MateriaPrimaController.listarUmaMateriaPrima)
 // router.put('/atualizar/materiaPrima/:idmateria_prima', MateriaPrimaController.atualizarMateriaPrima)
 // router.delete('/deletar/materiaPrima/:idmateria_prima', MateriaPrimaController.deletarMateriaPrima)

@@ -111,7 +111,7 @@ class MateriaPrimaController {
             })
     }
 
-    /* // Lista todas as matérias primas cadastradas no banco.
+    // Lista todas as matérias primas cadastradas no banco.
     listarMateriasPrimas(request, response) {
         database.select("*")
         .table("materia_prima")
@@ -124,7 +124,7 @@ class MateriaPrimaController {
         }).catch(error => {
             console.log(error)
         })
-    } */
+    } 
 
     listarUmaMateriaPrima(request, response) {
         const nome_materia_prima = request.params.nome
