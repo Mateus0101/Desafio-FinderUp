@@ -15,5 +15,5 @@ app.listen(port, () => {
 })
 
 app.get('/', (request, response) => {
-    response.send("Hello world")
+    response.send("API em execução!")
 })

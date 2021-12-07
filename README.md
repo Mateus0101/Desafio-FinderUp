@@ -39,8 +39,6 @@ Tabela de conteúdos
      * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
    * [Tecnologias](#-tecnologias)
      * [Server](#user-content-server--nodejs----typescript)
-   * [Contribuidores](#-contribuidores)
-   * [Como contribuir no projeto](#-como-contribuir-no-projeto)
    * [Autor](#-autor)
    * [Licença](#user-content--licença)
 <!--te-->
@@ -80,7 +78,7 @@ OBS: Ao tentar utilizar uma quantidade de matéria prima, primeiro a API verific
 
 ## 🎨 Layout
 
-Por se tratar do desenvolvimento de uma API, temos implementado apenas o BackEnd.
+Por se tratar do desenvolvimento de uma API, foi implementado apenas o BackEnd.
 
 ---
 
@@ -100,7 +98,6 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 #### 🎲 Rodando o Backend (servidor)
 
 ```bash
-
 # Clone este repositório
 $ git clone git@github.com:Mateus0101/Desafio-FinderUp.git
 
@@ -114,18 +111,6 @@ $ npm install
 $ npm start
 
 # O servidor inciará na porta:3000 - acesse http://localhost:3000 
-
-```
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Execute a aplicação 
-$ npm start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
 ```
 
 ---
