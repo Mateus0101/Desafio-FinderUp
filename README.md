@@ -85,7 +85,7 @@ Por se tratar do desenvolvimento de uma API, foi implementado apenas o BackEnd.
 ## 🚀 Como executar o projeto
 
 Este projeto contem apenas uma parte:
-1. Backend (pasta server) 
+1. Backend 
 
 💡Para que a API funcione, é necessário que o Backend esteja sendo executado.
 
